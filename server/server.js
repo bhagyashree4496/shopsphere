@@ -7,15 +7,16 @@ const mongoose = require("mongoose");
 require("dotenv").config(); // Load environment variables
 
 // Middleware
-app.use(
-  cors({
-    origin: [
-      "https://shopsphere-x6t84b8cx-bhagyashree4496s-projects.vercel.app",
-    ],
-    methods: ["POST", "GET"],
-    credentials: true,
-  })
-);
+// app.use(
+//   cors({
+//     origin: [
+//       "https://shopsphere-x6t84b8cx-bhagyashree4496s-projects.vercel.app",
+//     ],
+//     methods: ["POST", "GET"],
+//     credentials: true,
+//   })
+// );
+app.use(cors());
 app.use(express.json());
 
 const mongoURI = process.env.MONGODB_URI;
