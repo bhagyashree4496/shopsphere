@@ -1,1 +1,1 @@
-export const port = "https://shopsphere-eta.vercel.app/";
+export const port = "https://shopsphere-eta.vercel.app";
