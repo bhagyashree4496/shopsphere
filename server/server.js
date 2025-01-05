@@ -7,13 +7,15 @@ const mongoose = require("mongoose");
 require("dotenv").config(); // Load environment variables
 
 // Middleware
-app.use(cors(
-  (
-    origin: ["https://shopsphere-x6t84b8cx-bhagyashree4496s-projects.vercel.app"],
+app.use(
+  cors({
+    origin: [
+      "https://shopsphere-x6t84b8cx-bhagyashree4496s-projects.vercel.app",
+    ],
     methods: ["POST", "GET"],
-    credentials: true
-  )
-));
+    credentials: true,
+  })
+);
 app.use(express.json());
 
 const mongoURI = process.env.MONGODB_URI;
@@ -23,7 +25,9 @@ const mongoURI = process.env.MONGODB_URI;
 //   .catch((err) => console.error("MongoDB connection error:", err));
 
 mongoose
-  .connect(mongoURI)
+  .connect(
+    "mongodb+srv://bhagyashree4496:fA1vbQCGNsPxoCzR@cluster-heavenly.dixq2.mongodb.net/heavenly?retryWrites=true&w=majority"
+  )
   .then(() => console.log("Database connected successfully"))
   .catch((err) => console.error("Database connection failed:", err));
 
