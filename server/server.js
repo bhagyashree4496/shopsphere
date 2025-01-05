@@ -9,12 +9,12 @@ require("dotenv").config(); // Load environment variables
 // Middleware
 app.use(cors());
 app.use(express.json());
-app.use(express.static(path.join(__dirname, "../client/build")));
+//app.use(express.static(path.join(__dirname, "../client/build")));
 
 // All other routes serve the React app
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "../client/build", "index.html"));
-});
+//app.get("*", (req, res) => {
+// res.sendFile(path.join(__dirname, "../client/build", "index.html"));
+//});
 // Routes
 app.use("/api/products", require("./routes/products"));
 app.use("/api/user", require("./routes/users"));
