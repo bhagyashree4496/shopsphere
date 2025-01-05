@@ -1,0 +1,148 @@
+{
+  "products": [
+    {
+      "_id": "201",
+      "img": "https://www.ugaoo.com/cdn/shop/products/LagosPlanter-Grey_f26c8dee-c8ce-4e1a-bec7-86006f560c98.jpg?v=1680418283&width=375",
+      "productName": "Jade Plant Mini",
+      "price": "35.00",
+      "color": "Blank and White",
+
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+    },
+    {
+      "_id": "202",
+      "img": "https://www.ugaoo.com/cdn/shop/files/DSC_82942.jpg?v=1696240355&width=375",
+      "productName": "Bamboo Palm Plant",
+      "price": "35.00",
+      "color": "Blank and White",
+
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+    },
+    {
+      "_id": "203",
+      "img": "https://www.ugaoo.com/cdn/shop/products/LagosPlanter-Mocca_0ade021a-89b8-4814-93d9-2d7381decd99.jpg?v=1693639925&width=375",
+      "productName": "Peperomia Green Plant",
+      "price": "35.00",
+      "color": "Blank and White",
+
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+    },
+    {
+      "_id": "204",
+      "img": "https://www.ugaoo.com/cdn/shop/files/DSC_3273.jpg?v=1695228127&width=375",
+      "productName": "Anthurium Red Plant",
+      "price": "35.00",
+      "color": "Blank and White",
+
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+    },
+    {
+      "_id": "205",
+      "img": "https://www.ugaoo.com/cdn/shop/files/small-atlantis-midnight-blue-broken-heart-plant-32517995724932.jpg?v=1688732267&width=375",
+      "productName": "Broken Heart Plant",
+      "price": "35.00",
+      "color": "Blank and White",
+
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+    },
+    {
+      "_id": "206",
+      "img": "https://www.ugaoo.com/cdn/shop/files/DSC_2431.jpg?v=1692966811&width=375",
+      "productName": "Areca Palm Plant",
+      "price": "35.00",
+      "color": "Blank and White",
+
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+    },
+    {
+      "_id": "207",
+      "img": "https://www.ugaoo.com/cdn/shop/products/AtlantisPlanter-Teal_3edaf641-904e-485f-9d80-e11293f26546.jpg?v=1680435202",
+      "productName": "Snake Plant",
+      "price": "35.00",
+      "color": "Blank and White",
+
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+    },
+    {
+      "_id": "208",
+      "img": "https://www.ugaoo.com/cdn/shop/files/DSC_3262.jpg?v=1696240894&width=375",
+      "productName": "Focus Bonsai Plant",
+      "price": "35.00",
+      "color": "Blank and White",
+
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+    },
+    {
+      "_id": "209",
+      "img": "https://www.ugaoo.com/cdn/shop/files/Aimage_3.jpg?v=1682523121&width=375",
+      "productName": "Lucky Bamboo Plant",
+      "price": "35.00",
+      "color": "Blank and White",
+
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+    },
+    {
+      "_id": "210",
+      "img": "https://www.ugaoo.com/cdn/shop/files/DSC_2431.jpg?v=1692966811&width=375",
+      "productName": "Areca Palm Plant",
+      "price": "35.00",
+      "color": "Blank and White",
+
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+    },
+    {
+      "_id": "211",
+      "img": "https://www.ugaoo.com/cdn/shop/products/Venice12Planter-Black.jpg?v=1680418073&width=375",
+      "productName": "ZZ Plant",
+      "price": "35.00",
+      "color": "Blank and White",
+
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+    },
+    {
+      "_id": "212",
+      "img": "https://www.ugaoo.com/cdn/shop/products/LagosPlanter-Mocca_8469d47e-203e-4af4-92ba-866ead1838c8.jpg?v=1680417998&width=375",
+      "productName": "Sngonium Pink Plant",
+      "price": "35.00",
+      "color": "Blank and White",
+
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+    },
+    {
+      "_id": "213",
+      "img": "https://www.ugaoo.com/cdn/shop/files/DSC_3263.jpg?v=1694434958&width=375",
+      "productName": "Aglaonema Pink Beauty Plant",
+      "price": "35.00",
+      "color": "Blank and White",
+
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+    },
+    {
+      "_id": "214",
+      "img": "https://www.ugaoo.com/cdn/shop/products/monstera-deliciosa-plant-xl-31800119558276.jpg?v=1675604713&width=375",
+      "productName": "Monstera Deliciosa Plant",
+      "price": "35.00",
+      "color": "Blank and White",
+
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+    },
+    {
+      "_id": "215",
+      "img": "https://www.ugaoo.com/cdn/shop/products/AtlantisPlanter-Teal_dc150664-695d-4972-a996-95f1d6d0dac6.jpg?v=1680515170&width=375",
+      "productName": "ChloroPhytum Spider Plant",
+      "price": "35.00",
+      "color": "Blank and White",
+
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+    },
+    {
+      "_id": "216",
+      "img": "https://www.ugaoo.com/cdn/shop/products/ficus-lyrata-bambino-xl-31800064868484.jpg?v=1675588859&width=375",
+      "productName": "Ficus Lyrata Bambino",
+      "price": "35.00",
+      "color": "Blank and White",
+
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+    }
+  ]
+}

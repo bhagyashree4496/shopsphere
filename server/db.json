@@ -1,0 +1,524 @@
+[
+  {
+    "title": "Elegant Wooden Coffee Table",
+    "cost": 159.99,
+    "rating": 4.7,
+    "badge": "trending",
+    "howManyRated": 134,
+    "category": "Furniture",
+    "tags": ["wooden", "living room", "minimalist"],
+    "description": "A sleek and elegant coffee table crafted from high-quality oak wood, perfect for modern living rooms.",
+    "weight": "12 kg",
+    "dimensions": "120 x 60 x 45 cm",
+    "material": "Oak Wood",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1664457233897-53a66b68f959?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29mZWUlMjB3b29kZW4lMjB0YWJsZXxlbnwwfHwwfHx8MA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1680098058374-e580a9dbaeef?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y29mZWUlMjB3b29kZW4lMjB0YWJsZXxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1497395217579-0d6deaff0906?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGNvZmVlJTIwd29vZGVuJTIwdGFibGV8ZW58MHx8MHx8fDA%3D"
+    ]
+  },
+  {
+    "title": "Classic Leather Office Chair",
+    "cost": 249.99,
+    "rating": 4.8,
+    "howManyRated": 210,
+    "category": "Office Furniture",
+    "tags": ["leather", "office", "ergonomic"],
+    "description": "An ergonomic leather office chair providing superior comfort and lumbar support for long working hours.",
+    "weight": "15 kg",
+    "dimensions": "75 x 70 x 110 cm",
+    "material": "Genuine Leather, Steel Frame",
+    "images": [
+      "https://images.pexels.com/photos/264698/pexels-photo-264698.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/29807648/pexels-photo-29807648/free-photo-of-young-woman-reading-a-magazine-on-leather-chair.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/29817992/pexels-photo-29817992/free-photo-of-elegant-vintage-living-room-with-lamp-lighting.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "badge": "trending"
+  },
+  {
+    "title": "Modern Ceramic Vase Set",
+    "cost": 59.99,
+    "rating": 4.6,
+    "howManyRated": 89,
+    "category": "Home Decor",
+    "tags": ["ceramic", "decorative", "modern"],
+    "description": "A set of three modern ceramic vases with elegant finishes to enhance your home's aesthetic appeal.",
+    "weight": "3 kg",
+    "dimensions": "10 x 10 x 25 cm",
+    "material": "Ceramic",
+    "images": [
+      "https://images.pexels.com/photos/4202325/pexels-photo-4202325.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/7319129/pexels-photo-7319129.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/4095394/pexels-photo-4095394.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "badge": "new arrival"
+  },
+  {
+    "title": "Stainless Steel Cookware Set",
+    "cost": 199.99,
+    "rating": 4.9,
+    "howManyRated": 320,
+    "category": "Kitchen",
+    "tags": ["cookware", "stainless steel", "durable"],
+    "description": "A premium set of stainless steel cookware designed for durability and even heat distribution.",
+    "weight": "8 kg",
+    "dimensions": "Varies per piece",
+    "material": "Stainless Steel",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1664391966650-c3a41cc519e8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDh8fHxlbnwwfHx8fHw%3D",
+      "https://plus.unsplash.com/premium_photo-1664391955813-68ff6e17ce42?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c3RlZWwlMjBjb29rd2VhciUyMHNldHxlbnwwfHwwfHx8MA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1664391918718-e30f547f87de?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHN0ZWVsJTIwY29va3dlYXIlMjBzZXR8ZW58MHx8MHx8fDA%3D"
+    ],
+    "badge": "trending"
+  },
+  {
+    "title": "Minimalist Wall Clock",
+    "cost": 39.99,
+    "rating": 4.5,
+    "howManyRated": 75,
+    "category": "Home Decor",
+    "tags": ["wall clock", "minimalist", "modern"],
+    "description": "A simple yet stylish minimalist wall clock that fits perfectly in any modern space.",
+    "weight": "1.2 kg",
+    "dimensions": "30 x 30 x 5 cm",
+    "material": "Metal, Glass",
+    "images": [
+      "https://images.unsplash.com/photo-1707348102631-5a4c0a6eed6f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHdhbGwlMjBjbG9ja3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1530049080396-450947c04fcd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHdhbGwlMjBjbG9ja3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1522339419089-3e2604cc8a9d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d2FsbCUyMGNsb2NrfGVufDB8fDB8fHww"
+    ],
+    "badge": "new arrival"
+  },
+  {
+    "title": "Luxury Egyptian Cotton Bedsheet",
+    "cost": 89.99,
+    "rating": 4.8,
+    "howManyRated": 190,
+    "category": "Bedding",
+    "tags": ["bedsheet", "cotton", "luxury"],
+    "description": "A luxurious Egyptian cotton bedsheet set offering unmatched softness and comfort for a restful sleep.",
+    "weight": "2.5 kg",
+    "dimensions": "200 x 230 cm",
+    "material": "Egyptian Cotton",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1670869816769-c64fbc7b9c4c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmVkc2hlZXR8ZW58MHx8MHx8fDA%3D",
+      "https://plus.unsplash.com/premium_photo-1684164601223-eeb48e783b9d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGJlZHNoZWV0fGVufDB8fDB8fHww",
+      "https://plus.unsplash.com/premium_photo-1674326699094-55c656af9867?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YmVkc2hlZXR8ZW58MHx8MHx8fDA%3D"
+    ],
+    "badge": "bestseller"
+  },
+  {
+    "title": "Vintage Glass Chandelier",
+    "cost": 499.99,
+    "rating": 4.9,
+    "howManyRated": 110,
+    "category": "Lighting",
+    "tags": ["chandelier", "vintage", "elegant"],
+    "description": "A stunning vintage glass chandelier that brings an air of luxury and sophistication to your space.",
+    "weight": "18 kg",
+    "dimensions": "80 x 80 x 120 cm",
+    "material": "Glass, Metal",
+    "images": [
+      "https://images.unsplash.com/photo-1674473128123-7aa2186e5b6b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGdsYXNzJTIwJTIwQ2hhbmRlbGllcnxlbnwwfHwwfHx8MA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1677015055465-9840bec3c980?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Z2xhc3MlMjAlMjBDaGFuZGVsaWVyfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1674970538959-e7475d8d376f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGdsYXNzJTIwJTIwQ2hhbmRlbGllcnxlbnwwfHwwfHx8MA%3D%3D"
+    ],
+    "badge": "new arrival"
+  },
+  {
+    "title": "Wireless Noise-Cancelling Headphones",
+    "cost": 299.99,
+    "rating": 4.7,
+    "howManyRated": 250,
+    "category": "Electronics",
+    "tags": ["headphones", "wireless", "noise-cancelling"],
+    "description": "High-quality wireless noise-cancelling headphones with long battery life for an immersive audio experience.",
+    "weight": "0.5 kg",
+    "dimensions": "20 x 18 x 7 cm",
+    "material": "Plastic, Memory Foam",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1679513691474-73102089c117?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aGVhZHBob25lc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1679513691641-9aedddc94f96?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGhlYWRwaG9uZXN8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1577174881658-0f30ed549adc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhlYWRwaG9uZXN8ZW58MHx8MHx8fDA%3D"
+    ],
+    "badge": "bestseller"
+  },
+  {
+    "title": "Marble Pattern Yoga Mat",
+    "cost": 49.99,
+    "rating": 4.6,
+    "howManyRated": 140,
+    "category": "Fitness",
+    "tags": ["yoga mat", "marble", "non-slip"],
+    "description": "A non-slip marble pattern yoga mat, designed for comfort and support during yoga or workouts.",
+    "weight": "1.8 kg",
+    "dimensions": "180 x 60 x 0.5 cm",
+    "material": "TPE, Non-Toxic Foam",
+    "images": [
+      "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8eW9nYSUyMG1hdHxlbnwwfHwwfHx8MA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1675155952889-abb299df1fe7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8eW9nYSUyMG1hdHxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1599447421382-437e6fb32fb8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHlvZ2ElMjBtYXR8ZW58MHx8MHx8fDA%3D"
+    ],
+    "badge": "bestseller"
+  },
+  {
+    "title": "Handcrafted Wooden Dining Set",
+    "cost": 999.99,
+    "rating": 5.0,
+    "howManyRated": 85,
+    "category": "Furniture",
+    "tags": ["dining set", "handcrafted", "wooden"],
+    "description": "A premium handcrafted wooden dining set designed to complement your dining space with style and elegance.",
+    "weight": "50 kg",
+    "dimensions": "150 x 90 x 75 cm",
+    "material": "Teak Wood",
+    "images": [
+      "https://images.unsplash.com/photo-1651209315802-12190ccfee26?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGluaW5nJTIwc2V0fGVufDB8fDB8fHww",
+      "https://plus.unsplash.com/premium_photo-1673972358996-3747c0ba31b6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZGluaW5nJTIwc2V0fGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1574966739399-2cb77de5425e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZGluaW5nJTIwc2V0fGVufDB8fDB8fHww"
+    ],
+    "badge": "bestseller"
+  },
+  {
+    "title": "Leather Sofa Set",
+    "cost": 799.99,
+    "rating": 4.7,
+    "howManyRated": 180,
+    "category": "Furniture",
+    "tags": ["leather", "sofa", "luxury"],
+    "description": "A luxurious leather sofa set offering comfort and style for your living room.",
+    "weight": "40 kg",
+    "dimensions": "200 x 85 x 75 cm",
+    "material": "Genuine Leather, Wood Frame",
+    "images": [
+      "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c29mYXxlbnwwfHwwfHx8MA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1661765778256-169bf5e561a6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8c29mYXxlbnwwfHwwfHx8MA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1661780295073-98db12600af0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c29mYXxlbnwwfHwwfHx8MA%3D%3D"
+    ],
+    "badge": "new arrival"
+  },
+  {
+    "title": "Smart LED Desk Lamp",
+    "cost": 89.99,
+    "rating": 4.6,
+    "howManyRated": 65,
+    "category": "Lighting",
+    "tags": ["LED", "desk lamp", "smart"],
+    "description": "A smart LED desk lamp with adjustable brightness and color temperature, perfect for workspaces.",
+    "weight": "1.5 kg",
+    "dimensions": "15 x 10 x 45 cm",
+    "material": "Aluminum, Plastic",
+    "images": [
+      "https://images.unsplash.com/photo-1510074468346-504b4d8a8630?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGVzayUyMGxhbXB8ZW58MHx8MHx8fDA%3D",
+      "https://plus.unsplash.com/premium_photo-1685287731246-ea8d4bdec48d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZGVzayUyMGxhbXB8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1534029731425-0d646dd67df3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGRlc2slMjBsYW1wfGVufDB8fDB8fHww"
+    ],
+    "badge": "bestseller"
+  },
+  {
+    "title": "Rattan Storage Basket Set",
+    "cost": 39.99,
+    "rating": 4.8,
+    "howManyRated": 90,
+    "category": "Storage",
+    "tags": ["rattan", "storage", "woven"],
+    "description": "A set of three woven rattan baskets for stylish and practical storage in any room.",
+    "weight": "3 kg",
+    "dimensions": "Various sizes",
+    "material": "Rattan",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1664392265323-81b469739ed7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8UmF0dGFuJTIwU3RvcmFnZSUyMEJhc2tldCUyMFNldHxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1604298002502-5ca0b81c5f4e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8UmF0dGFuJTIwU3RvcmFnZSUyMEJhc2tldCUyMFNldHxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1455669175216-9017c9b02fc6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fFJhdHRhbiUyMFN0b3JhZ2UlMjBCYXNrZXQlMjBTZXR8ZW58MHx8MHx8fDA%3D"
+    ],
+    "badge": "new arrival"
+  },
+  {
+    "title": "Adjustable Standing Desk",
+    "cost": 399.99,
+    "rating": 4.5,
+    "howManyRated": 160,
+    "category": "Office Furniture",
+    "tags": ["standing desk", "ergonomic", "adjustable"],
+    "description": "An ergonomic adjustable standing desk that allows you to switch between sitting and standing positions.",
+    "weight": "25 kg",
+    "dimensions": "120 x 60 x 75 cm",
+    "material": "Steel, Wood",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1732721750677-b9e410a2c335?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8QWRqdXN0YWJsZSUyMFN0YW5kaW5nJTIwRGVza3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1731966821503-43056ab37189?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8QWRqdXN0YWJsZSUyMFN0YW5kaW5nJTIwRGVza3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fEFkanVzdGFibGUlMjBTdGFuZGluZyUyMERlc2t8ZW58MHx8MHx8fDA%3D"
+    ],
+    "badge": "trending"
+  },
+  {
+    "title": "Sculpted Decorative Throw Pillow",
+    "cost": 29.99,
+    "rating": 4.7,
+    "howManyRated": 45,
+    "category": "Home Decor",
+    "tags": ["throw pillow", "decorative", "sculpted"],
+    "description": "A sculpted decorative throw pillow that adds a touch of luxury to your sofa or bed.",
+    "weight": "0.5 kg",
+    "dimensions": "40 x 40 cm",
+    "material": "Velvet, Polyester",
+    "images": [
+      "https://images.unsplash.com/photo-1529139165341-7da95bcbf07d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fFNjdWxwdGVkJTIwRGVjb3JhdGl2ZSUyMFRocm93JTIwUGlsbG93fGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1559051668-9024c9b5e84b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fFNjdWxwdGVkJTIwRGVjb3JhdGl2ZSUyMFRocm93JTIwUGlsbG93fGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1621872112223-167c62e0782a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U2N1bHB0ZWQlMjBEZWNvcmF0aXZlJTIwVGhyb3clMjBQaWxsb3d8ZW58MHx8MHx8fDA%3D"
+    ],
+    "badge": "new arrival"
+  },
+  {
+    "title": "Portable Bluetooth Speaker",
+    "cost": 129.99,
+    "rating": 4.6,
+    "howManyRated": 300,
+    "category": "Electronics",
+    "tags": ["Bluetooth", "speaker", "portable"],
+    "description": "A compact portable Bluetooth speaker with superior sound quality and waterproof design.",
+    "weight": "0.7 kg",
+    "dimensions": "18 x 6 x 8 cm",
+    "material": "Plastic, Rubber",
+    "images": [
+      "https://images.unsplash.com/photo-1589256469067-ea99122bbdc4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8UG9ydGFibGUlMjBCbHVldG9vdGglMjBTcGVha2VyfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1598034989845-48532781987e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8UG9ydGFibGUlMjBCbHVldG9vdGglMjBTcGVha2VyfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1572183717150-0ca8073a2457?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fFBvcnRhYmxlJTIwQmx1ZXRvb3RoJTIwU3BlYWtlcnxlbnwwfHwwfHx8MA%3D%3D"
+    ],
+    "badge": "trending"
+  },
+  {
+    "title": "Eco-Friendly Bamboo Toothbrush Set",
+    "cost": 12.99,
+    "rating": 4.9,
+    "howManyRated": 250,
+    "category": "Personal Care",
+    "tags": ["toothbrush", "bamboo", "eco-friendly"],
+    "description": "A set of biodegradable bamboo toothbrushes with soft bristles, perfect for eco-conscious individuals.",
+    "weight": "0.2 kg",
+    "dimensions": "19 x 3 x 1 cm",
+    "material": "Bamboo, Nylon",
+    "images": [
+      "https://images.unsplash.com/photo-1605615923013-f26c14fe7155?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fEVjbyUyMEZyaWVuZGx5JTIwQmFtYm9vJTIwVG9vdGhicnVzaCUyMFNldHxlbnwwfHwwfHx8MA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1664527305203-c99123b699fc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fEVjbyUyMEZyaWVuZGx5JTIwQmFtYm9vJTIwVG9vdGhicnVzaCUyMFNldHxlbnwwfHwwfHx8MA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1676635271060-7aa7483781c3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8RWNvJTIwRnJpZW5kbHklMjBCYW1ib28lMjBUb290aGJydXNoJTIwU2V0fGVufDB8fDB8fHww"
+    ],
+    "badge": "new arrival"
+  },
+  {
+    "title": "Adjustable Yoga Block Set",
+    "cost": 19.99,
+    "rating": 4.6,
+    "howManyRated": 105,
+    "category": "Fitness",
+    "tags": ["yoga", "block", "adjustable"],
+    "description": "A set of adjustable yoga blocks to support various yoga poses and stretches.",
+    "weight": "1 kg",
+    "dimensions": "23 x 15 x 10 cm",
+    "material": "Foam",
+    "images": [
+      "https://images.unsplash.com/photo-1515775538093-d2d95c5ee4f5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8eW9nYSUyMGVxdWlwbWVudHN8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1530021356476-0a6375ffe73b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE4fHx8ZW58MHx8fHx8",
+      "https://images.unsplash.com/photo-1584827386916-b5351d3ba34b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D"
+    ],
+    "badge": "trending"
+  },
+  {
+    "title": "Smart Home Thermostat",
+    "cost": 119.99,
+    "rating": 4.7,
+    "howManyRated": 140,
+    "category": "Electronics",
+    "tags": ["thermostat", "smart home", "temperature control"],
+    "description": "A smart home thermostat that allows you to control your home's temperature remotely via an app.",
+    "weight": "0.8 kg",
+    "dimensions": "8 x 8 x 2 cm",
+    "material": "Plastic",
+    "images": [
+      "https://images.unsplash.com/photo-1545259741-2ea3ebf61fa3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U21hcnQlMjBIb21lJTIwVGhlcm1vc3RhdHxlbnwwfHwwfHx8MA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1729436833449-225649403fc0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8U21hcnQlMjBIb21lJTIwVGhlcm1vc3RhdHxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1545259742-b4fd8fea67e4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8U21hcnQlMjBIb21lJTIwVGhlcm1vc3RhdHxlbnwwfHwwfHx8MA%3D%3D"
+    ],
+    "badge": "new arrival"
+  },
+  {
+    "title": "Indoor Plant Pot Set",
+    "cost": 24.99,
+    "rating": 4.8,
+    "howManyRated": 50,
+    "category": "Garden",
+    "tags": ["plant pot", "indoor", "set"],
+    "description": "A set of three stylish indoor plant pots with drainage holes and saucers for easy maintenance.",
+    "weight": "1.2 kg",
+    "dimensions": "Various sizes",
+    "material": "Ceramic",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1668416114981-1d6cd2acbc7d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fEluZG9vciUyMFBsYW50JTIwUG90JTIwU2V0fGVufDB8fDB8fHww",
+      "https://plus.unsplash.com/premium_photo-1680127401354-ccc306081883?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8SW5kb29yJTIwUGxhbnQlMjBQb3QlMjBTZXR8ZW58MHx8MHx8fDA%3D",
+      "https://plus.unsplash.com/premium_photo-1679516403540-daa04a035cf9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8SW5kb29yJTIwUGxhbnQlMjBQb3QlMjBTZXR8ZW58MHx8MHx8fDA%3D"
+    ],
+    "badge": "new arrival"
+  },
+  {
+    "title": "Modern Recliner Chair",
+    "cost": 349.99,
+    "rating": 4.7,
+    "howManyRated": 180,
+    "category": "Furniture",
+    "tags": ["recliner", "comfortable", "living room"],
+    "description": "A luxurious modern recliner chair designed for ultimate comfort and relaxation.",
+    "weight": "20 kg",
+    "dimensions": "90 x 85 x 110 cm",
+    "material": "Fabric, Steel Frame",
+    "images": [
+      "https://images.unsplash.com/photo-1612372606404-0ab33e7187ee?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TW9kZXJuJTIwUmVjbGluZXIlMjBDaGFpcnxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1541533260371-b8fc9b596d84?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fE1vZGVybiUyMFJlY2xpbmVyJTIwQ2hhaXJ8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1486946255434-2466348c2166?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fE1vZGVybiUyMFJlY2xpbmVyJTIwQ2hhaXJ8ZW58MHx8MHx8fDA%3D"
+    ],
+    "badge": "bestseller"
+  },
+  {
+    "title": "Portable Blender",
+    "cost": 49.99,
+    "rating": 4.6,
+    "howManyRated": 220,
+    "category": "Electronics",
+    "tags": ["blender", "portable", "kitchen"],
+    "description": "A powerful portable blender perfect for smoothies and shakes on the go.",
+    "weight": "1.5 kg",
+    "dimensions": "25 x 10 x 10 cm",
+    "material": "Plastic, Stainless Steel",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1719060015414-c66eb449b9be?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8UG9ydGFibGUlMjBCbGVuZGVyfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1577495917765-9497a0de7caa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8UG9ydGFibGUlMjBCbGVuZGVyfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1585515320310-259814833e62?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8UG9ydGFibGUlMjBCbGVuZGVyfGVufDB8fDB8fHww"
+    ],
+    "badge": "bestseller"
+  },
+  {
+    "title": "Bamboo Cutting Board Set",
+    "cost": 39.99,
+    "rating": 4.8,
+    "howManyRated": 150,
+    "category": "Kitchen",
+    "tags": ["cutting board", "bamboo", "eco-friendly"],
+    "description": "A set of three eco-friendly bamboo cutting boards that are durable and gentle on knives.",
+    "weight": "2 kg",
+    "dimensions": "Varies per piece",
+    "material": "Bamboo",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1714702846875-ca3a149c0592?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q3V0dGluZyUyMEJvYXJkfGVufDB8fDB8fHww",
+      "https://plus.unsplash.com/premium_photo-1714785784388-9ff2e5d58dcb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Q3V0dGluZyUyMEJvYXJkfGVufDB8fDB8fHww",
+      "https://plus.unsplash.com/premium_photo-1716104016244-3f7d0b5195dd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fEN1dHRpbmclMjBCb2FyZHxlbnwwfHwwfHx8MA%3D%3D"
+    ],
+    "badge": "trending"
+  },
+  {
+    "title": "Smart LED Bed Lamp",
+    "cost": 69.99,
+    "rating": 4.7,
+    "howManyRated": 120,
+    "category": "Lighting",
+    "tags": ["LED", "smart", "lamp"],
+    "description": "A smart LED lamp with adjustable brightness and color temperature for the perfect work environment.",
+    "weight": "1.2 kg",
+    "dimensions": "40 x 15 x 15 cm",
+    "material": "Aluminum, Plastic",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1678297270718-132daae94f9a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YmVkJTIwbGFtcHxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1520014384091-f75776a1ca4f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YmVkJTIwbGFtcHxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1455792244736-3ed96c3d7f7e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGJlZCUyMGxhbXB8ZW58MHx8MHx8fDA%3D"
+    ],
+    "badge": "new arrival"
+  },
+  {
+    "title": "Luxury Throw Blanket",
+    "cost": 89.99,
+    "rating": 4.9,
+    "howManyRated": 200,
+    "category": "Bedding",
+    "tags": ["throw blanket", "luxury", "soft"],
+    "description": "A soft and luxurious throw blanket made of premium materials, perfect for cozy nights.",
+    "weight": "1.8 kg",
+    "dimensions": "150 x 200 cm",
+    "material": "Cashmere",
+    "images": [
+      "https://images.unsplash.com/photo-1663610600030-b78d3b21905b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YmxhbmtldHxlbnwwfHwwfHx8MA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1670512206220-1d9b433d812e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YmxhbmtldHxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1522198798025-edbf00dabd6b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhbmtldHxlbnwwfHwwfHx8MA%3D%3D"
+    ],
+    "badge": "new arrival"
+  },
+  {
+    "title": "Solar-Powered Garden Lights",
+    "cost": 79.99,
+    "rating": 4.5,
+    "howManyRated": 150,
+    "category": "Lighting",
+    "tags": ["garden lights", "solar-powered", "outdoor"],
+    "description": "A set of solar-powered garden lights that create a warm and inviting atmosphere in your outdoor spaces.",
+    "weight": "3 kg",
+    "dimensions": "10 x 10 x 40 cm",
+    "material": "Plastic, Solar Panel",
+    "images": [
+      "https://images.unsplash.com/photo-1605289383455-6fda488080e4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z2FyZGVuJTIwbGlnaHRzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1605289383455-6fda488080e4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z2FyZGVuJTIwbGlnaHRzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1527359443443-84a48aec73d2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGdhcmRlbiUyMGxpZ2h0c3xlbnwwfHwwfHx8MA%3D%3D"
+    ],
+    "badge": "trending"
+  },
+  {
+    "title": "Faux Leather Storage Ottoman",
+    "cost": 109.99,
+    "rating": 4.6,
+    "howManyRated": 100,
+    "category": "Furniture",
+    "tags": ["ottoman", "storage", "faux leather"],
+    "description": "A stylish faux leather storage ottoman that adds a modern touch while offering hidden storage for your living room or bedroom.",
+    "weight": "8 kg",
+    "dimensions": "80 x 40 x 45 cm",
+    "material": "Faux Leather",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1679314408678-77e6985c76cc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bGVhdGhlciUyMHN0b3JhZ2V8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1473188588951-666fce8e7c68?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bGVhdGhlciUyMHN0b3JhZ2V8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1541336318489-083c7d277b8e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGxlYXRoZXIlMjBzdG9yYWdlfGVufDB8fDB8fHww"
+    ],
+    "badge": "trending"
+  },
+  {
+    "title": "Cordless Handheld Vacuum Cleaner",
+    "cost": 149.99,
+    "rating": 4.7,
+    "howManyRated": 300,
+    "category": "Electronics",
+    "tags": ["vacuum cleaner", "cordless", "handheld"],
+    "description": "A lightweight cordless handheld vacuum cleaner with powerful suction and a long-lasting battery.",
+    "weight": "2 kg",
+    "dimensions": "35 x 15 x 10 cm",
+    "material": "Plastic, Stainless Steel",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1664372899494-774422f7ce61?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dmFjdXVtJTIwY2xlYW5lcnxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1647940990395-967898eb0d65?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dmFjdXVtJTIwY2xlYW5lcnxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1653990480360-31a12ce9723e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dmFjdXVtJTIwY2xlYW5lcnxlbnwwfHwwfHx8MA%3D%3D"
+    ],
+    "badge": "trending"
+  },
+  {
+    "title": "Gourmet Coffee Maker",
+    "cost": 159.99,
+    "rating": 4.8,
+    "howManyRated": 250,
+    "category": "Kitchen",
+    "tags": ["coffee maker", "gourmet", "brewing"],
+    "description": "A premium gourmet coffee maker that brews the perfect cup of coffee with rich flavor and aroma.",
+    "weight": "3 kg",
+    "dimensions": "30 x 20 x 35 cm",
+    "material": "Stainless Steel, Glass",
+    "images": [
+      "https://images.unsplash.com/photo-1511001148140-09c2b155f57c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNvZmZlJTIwbWFrZXJ8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1607273177127-47ec33b5be3f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGNvZmZlJTIwbWFrZXJ8ZW58MHx8MHx8fDA%3D",
+      "https://plus.unsplash.com/premium_photo-1661722983090-11783531c332?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29mZmUlMjBtYWtlcnxlbnwwfHwwfHx8MA%3D%3D"
+    ],
+    "badge": "new arrival"
+  }
+]

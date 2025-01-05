@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.link-text {
+  color: #555252;
+  cursor: pointer;
+}
+.link-text:hover {
+  color: #a749ff;
+}
+.font-12 {
+  font-size: 12px;
+}
+.font-15 {
+  font-size: 15px;
+}
+.font-30 {
+  font-size: 30px;
+}
+.font-gray {
+  color: #555252;
+}
+.dropdown-menu {
+  opacity: 0;
+  transform: translateY(-10px);
+  pointer-events: none;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.dropdown-menu.open {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+.button-primary {
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+  cursor: pointer;
+  width: 50%;
+  margin-top: 30px;
+  position: relative;
+  transition: color 0.3s ease;
+  z-index: 0;
+}
+.button-primary::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0; /* Initially no background width */
+  height: 100%;
+  background-color: #a749ff; /* The solid background color */
+  transition: width 0.5s ease; /* Animation for background fill */
+  z-index: 0; /* Puts background behind the text */
+}
+.button-primary:hover::before {
+  width: 100%; /* Fills the background from left to right */
+}
+.button-primary:hover {
+  color: white; /* Keeps text color white */
+  border: 1px solid white;
+}
+.button-primary span {
+  position: relative;
+  z-index: 1; /* Ensures text stays above the background */
+}
+@media (max-width: 768px) {
+  .button-primary {
+    width: 80%;
+    margin-top: 10px;
+  }
+}
