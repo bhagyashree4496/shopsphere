@@ -3,9 +3,10 @@ import { ProductContext } from "../../context/ProductContext";
 import { useNavigate } from "react-router-dom";
 import { FaHeart, FaStar } from "react-icons/fa";
 import { FaFilter } from "react-icons/fa6";
+import Loader from "../../components/Loader";
 
 const Shop = () => {
-  const { state, dispatch } = useContext(ProductContext);
+  const { state, dispatch, loading } = useContext(ProductContext);
   const navigate = useNavigate();
 
   // Filter states
@@ -27,9 +28,11 @@ const Shop = () => {
 
     return matchesCategory && matchesPrice && matchesRating;
   });
-
+  if (loading) {
+    return <Loader />;
+  }
   return (
-    <div>
+    <>
       <div
         className="text-xl font-bold mb-4 flex gap-2 items-center px-6 justify-end underline cursor-pointer md:hidden"
         onClick={() => setOpenFilter(!openFilter)}
@@ -40,9 +43,9 @@ const Shop = () => {
       <div className="md:flex relative">
         {/* Sidebar */}{" "}
         <aside
-          className={`dropdown-menu ${
+          className={` ${
             !openFilter ? "invisible" : "open"
-          } absolute top-0 md:block bg-gray-200 md:bg-white md:static z-20 px-6 py-4 md:w-1/4 md:p-6 border-r border-gray-200 `}
+          } absolute top-0  md:visible bg-gray-200 md:bg-white md:static z-20 px-6 py-4 md:w-1/4 md:p-6 border-r border-gray-200 `}
         >
           <h2 className="text-xl font-bold mb-4 hidden md:block">Filters</h2>
           {/* Category Filter */}
@@ -183,7 +186,7 @@ const Shop = () => {
           )}
         </main>
       </div>
-    </div>
+    </>
   );
 };
 

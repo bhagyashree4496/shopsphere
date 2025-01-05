@@ -1,4 +1,4 @@
-import React, { createContext, useEffect, useReducer } from "react";
+import React, { createContext, useEffect, useReducer, useState } from "react";
 import { getProducts } from "../api/api";
 
 // Initial State
@@ -87,11 +87,13 @@ export const ProductContext = createContext();
 // Context Provider
 export const ProductProvider = ({ children }) => {
   const [state, dispatch] = useReducer(productReducer, initialState);
+  const [loading, setLoading] = useState(false);
   useEffect(() => {
     const fetchProducts = async () => {
       try {
+        setLoading(true);
         const products = await getProducts();
-        console.log(products);
+        setLoading(false);
         dispatch({ type: "SET_PRODUCTS", payload: products });
       } catch (error) {
         console.error("Failed to fetch products:", error);
@@ -102,7 +104,7 @@ export const ProductProvider = ({ children }) => {
   }, []);
 
   return (
-    <ProductContext.Provider value={{ state, dispatch }}>
+    <ProductContext.Provider value={{ state, dispatch, loading }}>
       {children}
     </ProductContext.Provider>
   );

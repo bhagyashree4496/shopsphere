@@ -248,11 +248,7 @@ const Navbar = ({
             <ul className="font-semibold text-center">
               <li
                 className="link-text relative group"
-                onClick={() =>
-                  setHomeDropdown((prev) => {
-                    return !prev;
-                  })
-                }
+                onClick={() => setIsMenuOpen(false)}
               >
                 <NavLink
                   to="/"
@@ -265,7 +261,7 @@ const Navbar = ({
               </li>
               <li
                 className="link-text relative group"
-                onClick={() => setShopDropdown((prev) => !prev)}
+                onClick={() => setIsMenuOpen(false)}
               >
                 <NavLink
                   to="/shop"
@@ -277,7 +273,7 @@ const Navbar = ({
                 </NavLink>
               </li>
 
-              <li className="link-text">
+              <li className="link-text" onClick={() => setIsMenuOpen(false)}>
                 <NavLink
                   to="/blogs"
                   className={({ isActive }) =>

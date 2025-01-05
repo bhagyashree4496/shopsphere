@@ -12,9 +12,10 @@ import Blogs from "../blogs/Blogs";
 import { onAuthStateChanged } from "firebase/auth";
 import { auth } from "../../firebase";
 import { updateUserDetails } from "../../api/api";
+import Loader from "../../components/Loader";
 
 const Home = () => {
-  const { state, dispatch } = useContext(ProductContext);
+  const { state, dispatch, loading } = useContext(ProductContext);
   console.log(state);
   const navigate = useNavigate();
   const [activeTab, setActiveTab] = useState("bestseller"); // Default tab
@@ -85,66 +86,70 @@ const Home = () => {
           </div>
 
           {/* Product Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 gap-y-14 justify-items-center">
-            {filteredProducts?.map((product, index) => (
-              <div
-                key={index}
-                className="text-center shadow-md flex flex-col justify-between w-[270px] relative pb-5 rounded-md cursor-pointer"
-                onClick={() => navigate(`/product/${product._id}`)}
-              >
+          {loading ? (
+            <Loader />
+          ) : (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 gap-y-14 justify-items-center">
+              {filteredProducts?.map((product, index) => (
                 <div
-                  className={`${
-                    state.favorites.some((pro) => pro._id === product._id)
-                      ? "text-red-600"
-                      : "text-[#a749ff]"
-                  } z-10 p-4 flex items-center justify-center absolute top-0 right-0`}
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    addToFavorite(product);
-                  }}
+                  key={index}
+                  className="text-center shadow-md flex flex-col justify-between w-[270px] relative pb-5 rounded-md cursor-pointer"
+                  onClick={() => navigate(`/product/${product._id}`)}
                 >
-                  <FaHeart />
-                </div>
-                <div className="h-48 w-[270px] bg-gray-200 mb-4 maincontainer">
-                  <div className="front h-48 w-[270px]">
-                    <img
-                      src={product.images[0]}
-                      className="w-[270px] h-full object-cover rounded-t-md"
-                      alt={product.title}
-                    />
+                  <div
+                    className={`${
+                      state.favorites.some((pro) => pro._id === product._id)
+                        ? "text-red-600"
+                        : "text-[#a749ff]"
+                    } z-10 p-4 flex items-center justify-center absolute top-0 right-0`}
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      addToFavorite(product);
+                    }}
+                  >
+                    <FaHeart />
                   </div>
-                  <div className="back h-48 w-[270px]">
-                    <img
-                      src={product.images[1]}
-                      className="w-[270px] h-full object-cover rounded-t-md"
-                      alt={product.title}
-                    />
+                  <div className="h-48 w-[270px] bg-gray-200 mb-4 maincontainer">
+                    <div className="front h-48 w-[270px]">
+                      <img
+                        src={product.images[0]}
+                        className="w-[270px] h-full object-cover rounded-t-md"
+                        alt={product.title}
+                      />
+                    </div>
+                    <div className="back h-48 w-[270px]">
+                      <img
+                        src={product.images[1]}
+                        className="w-[270px] h-full object-cover rounded-t-md"
+                        alt={product.title}
+                      />
+                    </div>
                   </div>
-                </div>
-                <h3 className="text-lg">{product.title}</h3>
-                <p className="text-gray-600 mt-2 font-semibold">
-                  ₹{product.cost}
-                </p>
+                  <h3 className="text-lg">{product.title}</h3>
+                  <p className="text-gray-600 mt-2 font-semibold">
+                    ₹{product.cost}
+                  </p>
 
-                <div className="flex items-center justify-center mt-3 gap-1">
-                  {Array(5)
-                    .fill()
-                    .map((_, i) => (
-                      <span
-                        key={i}
-                        className={
-                          i < Math.floor(product?.rating)
-                            ? "text-yellow-400"
-                            : "text-gray-400"
-                        }
-                      >
-                        <FaStar />
-                      </span>
-                    ))}
+                  <div className="flex items-center justify-center mt-3 gap-1">
+                    {Array(5)
+                      .fill()
+                      .map((_, i) => (
+                        <span
+                          key={i}
+                          className={
+                            i < Math.floor(product?.rating)
+                              ? "text-yellow-400"
+                              : "text-gray-400"
+                          }
+                        >
+                          <FaStar />
+                        </span>
+                      ))}
+                  </div>
                 </div>
-              </div>
-            ))}
-          </div>
+              ))}
+            </div>
+          )}
         </section>
         <Blogs />
 

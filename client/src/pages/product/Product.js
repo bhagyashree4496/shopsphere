@@ -4,6 +4,7 @@ import ProductSlider from "../../components/ProductSlider";
 import ProductDetails from "../../components/ProductDetails";
 import { useParams } from "react-router-dom";
 import { getProductById } from "../../api/api";
+import Loader from "../../components/Loader";
 
 const Product = () => {
   const [Product, setProduct] = useState();
@@ -18,7 +19,7 @@ const Product = () => {
     fetchProductsById();
   }, []);
   if (!Product) {
-    return <div>Loading</div>;
+    return <Loader />;
   }
   return (
     <div className="container mx-auto p-6 flex flex-col md:flex-row gap-8">
