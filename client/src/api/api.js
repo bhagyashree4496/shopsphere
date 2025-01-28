@@ -1,4 +1,5 @@
-import { port } from "../env";
+//import { port } from "../env";
+const port = "http://localhost:5000";
 export const getProducts = async () => {
   const response = await fetch(`${port}/api/products/get`); // Replace with your API URL
   if (!response.ok) {

@@ -10,10 +10,10 @@ const razorpay = new Razorpay({
 // Create Order Route
 router.post("/create-order", async (req, res) => {
   const { amount } = req.body;
-
+  console.log(amount);
   // Razorpay order options
   const options = {
-    amount: amount * 100, // Amount in paise (1 INR = 100 paise)
+    amount: Math.floor(amount) * 100, // Amount in paise (1 INR = 100 paise)
     currency: "INR", // Currency (can be INR or other supported currencies)
     receipt: `order_rcptid_${Math.random()}`,
     payment_capture: 1, // 1 for automatic payment capture, 0 for manual

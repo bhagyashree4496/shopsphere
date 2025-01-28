@@ -37,7 +37,7 @@ const Cart = () => {
   }, [state.cart]);
 
   const handleCheckout = async () => {
-    const amount = total * 0.9; // Total after discount
+    const amount = Number(total * 0.9); // Total after discount
 
     // Create Razorpay order
     const response = await fetch(
