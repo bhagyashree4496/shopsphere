@@ -61,6 +61,7 @@ const AuthTabs = () => {
     }
   };
   const handleRegisterSubmit = async (e) => {
+    console.log("in handleRegisterSubmit");
     e.preventDefault();
     try {
       const userCredential = await createUserWithEmailAndPassword(
@@ -116,9 +117,9 @@ const AuthTabs = () => {
         </div>
 
         {/* Content */}
-        <div className="mt-6" onSubmit={handleLoginSubmit}>
+        <div className="mt-6">
           {activeTab === "login" && (
-            <form className="space-y-4">
+            <form className="space-y-4" onSubmit={handleLoginSubmit}>
               <input
                 type="email"
                 placeholder="Email"
